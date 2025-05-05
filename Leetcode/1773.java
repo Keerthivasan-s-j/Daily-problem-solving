@@ -1,3 +1,4 @@
+import java.util.*;
 class Solution {
     public int countMatches(List<List<String>> items, String ruleKey, String ruleValue) {
         int key = (ruleKey.equals("type")) ? 0 : (ruleKey.equals("color")) ? 1 : 2;
