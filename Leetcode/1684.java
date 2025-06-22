@@ -1,3 +1,4 @@
+import java.util.*;
 class Solution {
     public int countConsistentStrings(String allowed, String[] words) {
         HashSet<Character> set = new HashSet<>();
